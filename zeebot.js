@@ -172,7 +172,7 @@ var time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
 	    	        group: '```𝘒𝘩𝘶𝘴𝘶𝘴 𝘎𝘳𝘰𝘶𝘱 𝘉𝘳𝘰𝘰```',
 	    	        owner: 'Khusus Owner Slurr',
 	    	        admin: 'Khusus Admin...',
-	    	        bot: 'Bo5 Harus Admin Boss',
+	    	        bot: 'Botz Harus Admin Boss',
                   }
 	        	}
 		const isUrl = (url) => {
@@ -465,7 +465,14 @@ switch (command) {
         sendButLocation(from, monospace(menu), `${p}#Quotes Hari Ini!!${p}\n${p}${hasil}${p}\n${p}${wita} || ${tanggal()}${p}`, tamnel, but, {quoted: mek})
           break
     case 'sewa':
-          tes =`isi Sendiri`
+          tes =`let fetch = require('node-fetch')
+          let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), `
+         ┌〔 Donasi • Emoney 〕
+         ├ GoPay: 085868010957 [YANZBOT]
+         ├ Dana: GA PUNYA
+         ├ Pulsa: KE PM🗿
+         └────`
+         `Minat chat wa.me/${ownernumber}`
           zee.sendMessage(from, tes, text, {quoted: troli})
           break  
           
@@ -1754,7 +1761,7 @@ ${q+=1}.goldplaybutton text
 ${q+=1}.silverplaybutton text
 ${q+=1}.freefire text
 
- ❏「 EVAL 」
+ ❏「 YanzBot 」
 ${q+=1}.term`)        
           but = [
            { buttonId: `!owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ️' }, type: 1 },
@@ -1776,7 +1783,7 @@ ${q+=1}.term`)
          zee.sendMessage(from, {displayName: `Creator Bot`, vcard: vcard2}, contact, 
          { quoted: troli, 
          })
-         reply('*_Jangan Lupa Subscrib_*\nhttps://youtube.com/c/FEBZABOTZ')
+         reply('*_Jangan Lupa Subscrib_*\nhttps://youtube.com/c/Yanzstore')
          break
              
 		                         
