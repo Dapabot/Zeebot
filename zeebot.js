@@ -465,14 +465,12 @@ switch (command) {
         sendButLocation(from, monospace(menu), `${p}#Quotes Hari Ini!!${p}\n${p}${hasil}${p}\n${p}${wita} || ${tanggal()}${p}`, tamnel, but, {quoted: mek})
           break
     case 'sewa':
-          tes =`let fetch = require('node-fetch')
-          let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), `
-         ┌〔 Donasi • Emoney 〕
-         ├ GoPay: 085868010957 [YANZBOT]
-         ├ Dana: GA PUNYA
-         ├ Pulsa: KE PM🗿
-         └────`
-         `Minat chat wa.me/${ownernumber}`
+          tes =`┌〔 Sewa • BOTZ 〕
+├ 1 MINGGU : 5K
+├ 2 BULAN : 10K
+├ 5 BULAN : 14K
+├ MINAT CHAT wa.me/48459088084
+└────`
           zee.sendMessage(from, tes, text, {quoted: troli})
           break  
           
